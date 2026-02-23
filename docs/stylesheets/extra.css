@@ -1,0 +1,12 @@
+.md-footer {
+    background-color: #ff9ecb; /* Light pink */
+}
+
+.md-footer__inner {
+    padding: 0.8rem;
+    text-align: center;
+}
+
+.md-footer__inner:before {
+    content: "😻 Proudly serving the feline community since 2026 😻";
+}
