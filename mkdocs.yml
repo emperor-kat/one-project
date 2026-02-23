@@ -1,1 +1,12 @@
-site_name: My Docs
+site_name: Test Project
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: pink
+      accent: deep purple
+  font:
+    text: Comic Neue
+    code: Roboto Mono
+  extra:
+    generator: false   
