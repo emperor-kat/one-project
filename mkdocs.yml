@@ -1,4 +1,5 @@
-site_name: Test Project
+site_name: Cats (test project)
+
 theme:
   name: material
   palette:
@@ -8,5 +9,8 @@ theme:
   font:
     text: Comic Neue
     code: Roboto Mono
-  extra:
-    generator: false   
+
+extra:
+  generator: false
+extra_css:
+  - stylesheets/extra.css  
