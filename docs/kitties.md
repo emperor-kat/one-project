@@ -1,23 +1,4 @@
 # Cats
-## Available for Adoption
-
-**grid**
-**gap: 16px**
-
-**grid-lg**
-**grid-md**
-**grid-sm**
-
-*[![Fluffy](assets/images/fluffy.jpg)](adoption/fluffy.md)*
-#### Fluffy
-*The Cuddler*
-*[Meet Fluffy :fontawesome-solid-paw:](adoption/fluffy.md)*
-
-*[![Whiskers](assets/images/whiskers.jpg)](adoption/whiskers.md)*
-#### Whiskers
-*The Engineer*
-*[Meet Whiskers :fontawesome-solid-gear:](adoption/whiskers.md)*
-
 ## Treat Recipes
 
 === "Tuna Bites"
