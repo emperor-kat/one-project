@@ -26,14 +26,11 @@
 
 ### 3. Side-by-Side
 
-<div class="cards" markdown>
-
 - **Capacity**: 350-600L
 - **Features**: Water dispenser, ice maker
 - **Price**: 40,000-100,000₽
 - **Best for**: Large families
 
-</div>
 
 ## Technology Comparison
 
@@ -46,11 +43,7 @@
     | Efficiency | Good | Excellent |
 
 === "Inverter Technology"
-    ```python
-    inverter_benefits = {
-        "energy_saving": "30-50% less energy",
-        "temperature_stability": "±0.5°C precision",
-        "noise_level": "Quieter operation",
-        "lifespan": "Longer compressor life"
-    }
-    ```
+    - 30-50% less energy,
+    - temperature_stability: "±0.5°C precision
+    - noise_level: Quieter operation
+    - lifespan: Longer compressor life
