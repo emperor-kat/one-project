@@ -9,12 +9,17 @@
 
 **Best for:**
 - Small families (1-2 people)
+
 - Limited kitchen space
+
 - Budget buyers
 
 **Features:**
+
 - Capacity: 150-250L
+
 - Price: 15,000-25,000₽
+
 - Energy: A+ to A++
 
 ### 2. Two Door (Top Freezer)
@@ -27,8 +32,11 @@
 ### 3. Side-by-Side
 
 - **Capacity**: 350-600L
+
 - **Features**: Water dispenser, ice maker
+
 - **Price**: 40,000-100,000₽
+
 - **Best for**: Large families
 
 
