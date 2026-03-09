@@ -18,7 +18,9 @@
     *"Reliable but expensive. Perfect temperature control worth the price."*
 
 ### 2. LG
+
 **Strengths:**
+
 - Innovative features
 
 - Good energy efficiency
