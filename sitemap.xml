@@ -2,10 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://emperor-kat.github.io/one-project/</loc>
-         <lastmod>2026-03-02</lastmod>
+         <lastmod>2026-03-09</lastmod>
     </url>
     <url>
-         <loc>https://emperor-kat.github.io/one-project/kitties/</loc>
-         <lastmod>2026-03-02</lastmod>
+         <loc>https://emperor-kat.github.io/one-project/guide/brands/</loc>
+         <lastmod>2026-03-09</lastmod>
+    </url>
+    <url>
+         <loc>https://emperor-kat.github.io/one-project/guide/overview/</loc>
+         <lastmod>2026-03-09</lastmod>
+    </url>
+    <url>
+         <loc>https://emperor-kat.github.io/one-project/guide/types/</loc>
+         <lastmod>2026-03-09</lastmod>
+    </url>
+    <url>
+         <loc>https://emperor-kat.github.io/one-project/stores/</loc>
+         <lastmod>2026-03-09</lastmod>
+    </url>
+    <url>
+         <loc>https://emperor-kat.github.io/one-project/stores/prices/</loc>
+         <lastmod>2026-03-09</lastmod>
     </url>
 </urlset>
