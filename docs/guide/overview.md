@@ -20,3 +20,4 @@ pie title Refrigerator Capacity Preferences in Barnaul
     "200-300L" : 30
     "400L+" : 15
     "Under 200L" : 10
+```
