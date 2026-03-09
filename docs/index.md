@@ -23,11 +23,6 @@ Your comprehensive guide to choosing the perfect refrigerator in Barnaul. We pro
 === "Specific Needs"
     Compare [different types](guide/types.md) and [brands](guide/brands.md)
 
-## Latest Updates
-
---8<-- "guide/overview.md:2:4"
-
---8<-- "stores/prices.md:2:3"
 
 ---
 
