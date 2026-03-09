@@ -27,6 +27,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+   - pymdownx.highlight
+  - pymdownx.inlinehilite
   - pymdownx.tabbed:
       alternate_style: true
   - attr_list
