@@ -1,12 +1,15 @@
-.md-footer {
-    background-color: #ff9ecb; /* Light pink */
+/* Custom styles for Refrigerator Guide */
+
+/* Modern card styles */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
 }
 
-.md-footer__inner {
-    padding: 0.8rem;
-    text-align: center;
-}
-
-.md-footer__inner:before {
-    content: "😻 Proudly serving the feline community since 2026 😻";
-}
+.cards .card {
+    border: 1px solid var(--md-primary-fg-color--light);
+    border-radius: 12px;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #f8f9fa 0

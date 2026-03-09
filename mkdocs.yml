@@ -1,17 +1,48 @@
 site_url: https://emperor-kat.github.io/one-project/
-site_name: Cats (test project)
+site_name: Barnaul Refrigerator Guide
+site_description: Your complete guide to choosing the best refrigerator in Barnaul
+site_author: Appliance Expert
 
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
   palette:
-    - scheme: default
-      primary: pink
-      accent: deep purple
-  font:
-    text: Comic Neue
-    code: Roboto Mono
+    primary: blue
+    accent: deep orange
 
 extra:
   generator: false
 extra_css:
-  - stylesheets/extra.css  
+  - stylesheets/extra.css
+
+plugins:
+  - search
+  - git-revision-date-localized
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - tables
+
+nav:
+  - Home: index.md
+  - Buying Guide:
+      - Overview: guide/overview.md
+      - By Type: guide/types.md
+      - By Brand: guide/brands.md
+  - Barnaul Stores:
+      - Store Reviews: stores/reviews.md
+      - Price Comparison: stores/prices.md
+  - Maintenance:
+      - Installation: maintenance/installation.md
+      - Care: maintenance/care.md
+  - About: about.md
