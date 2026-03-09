@@ -7,8 +7,6 @@
 
 ### 1. Single Door
 
-![Single Door](https://images.unsplash.com/photo-1595428270785-585cbd49086f?w=300){ align=left width=200 style="margin-right: 20px;" }
-
 **Best for:**
 - Small families (1-2 people)
 - Limited kitchen space
