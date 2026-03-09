@@ -36,12 +36,8 @@ nav:
   - Home: index.md
   - Buying Guide:
       - Overview: guide/overview.md
-      - By Type: guide/types.md
-      - By Brand: guide/brands.md
+      - Type: guide/types.md
+      - Brand: guide/brands.md
   - Barnaul Stores:
-      - Store Reviews: stores/reviews.md
+      - Store Reviews: stores/index.md
       - Price Comparison: stores/prices.md
-  - Maintenance:
-      - Installation: maintenance/installation.md
-      - Care: maintenance/care.md
-  - About: about.md

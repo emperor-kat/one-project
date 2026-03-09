@@ -1,6 +1,6 @@
 # Welcome to Barnaul Refrigerator Guide! ❄️
 
-![Modern Refrigerator](https://images.unsplash.com/photo-1588850561407-6b00cdc5212a?w=600){ align=right width=300 }
+![Modern Refrigerator](/images/modern-fridge.png)
 
 Your comprehensive guide to choosing the perfect refrigerator in Barnaul. We provide expert reviews, price comparisons, and practical advice to help you make the best decision.
 
