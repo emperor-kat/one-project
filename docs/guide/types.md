@@ -8,6 +8,7 @@
 ### 1. Single Door
 
 **Best for:**
+
 - Small families (1-2 people)
 
 - Limited kitchen space
@@ -25,8 +26,11 @@
 ### 2. Two Door (Top Freezer)
 
 **Advantages:**
+
 - Better organization
+
 - More affordable than bottom freezer
+
 - Energy efficient
 
 ### 3. Side-by-Side
