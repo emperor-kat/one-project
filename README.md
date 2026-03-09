@@ -1,42 +1,49 @@
-# MkDocs Setup Guide
+# MkDocs Project Setup Guide
+
 
 ## Prerequisites
 
-- Python 3.6 or higher
-- pip (Python package manager)
+Before you begin, ensure you have the following installed on your system:
+- Python (version 3.6 or higher)
+- pip (Python package manager, usually comes with Python)
 
-## Installation
+## Step 1: installation
 
-1. **Install MkDocs and required extensions**:
+Install MkDocs and the Material for MkDocs theme using pip:
+
 ```bash
-pip install mkdocs mkdocs-material
+pip install mkdocs-material
 ```
 
-2. **Create a new project**:
+## Step 2: create new project
+
+Initialize a new MkDocs project in a folder of your choice.
+
 ```bash
-mkdocs new my-docs-site
-cd my-docs-site
+mkdir my-mkdocs-site
+cd my-mkdocs-site
+
+mkdocs new .
 ```
 
-## Project Structure
+## Step 3: project structure
 
 Your project has this structure:
 ```
-my-docs-site/
-├── docs/
-│   ├── index.md
-│   ├── images/
-│   └── other .md files
-└── mkdocs.yml
+my-mkdocs-site/
+    ├── docs/
+    │    ├── index.md
+    │    └── images/
+    └── mkdocs.yml
 ```
 
-## Configuration (`mkdocs.yml`)
+## Step 4: configuration (`mkdocs.yml`)
 
-Replace the default `mkdocs.yml` with configuration, for example:
+Replace the contents of `mkdocs.yml` with this configuration:
 
 ```yaml
-site_name: Your Site Name
-site_description: Your site description
+site_name: My MkDocs Site
+site_description: A modern documentation website built with MkDocs
 site_author: Your Name
 
 theme:
@@ -52,8 +59,6 @@ theme:
   palette:
     primary: indigo
     accent: deep orange
-  icon:
-    logo: material/book
 
 extra_css:
   - stylesheets/extra.css
@@ -78,19 +83,92 @@ nav:
   - About: about.md
 ```
 
-## Custom CSS
+## Step 5: custom styling
 
-Create `docs/stylesheets/extra.css` for custom styles:
+Create custom CSS file:
 
-```css
-/* Custom styles for your site */
-.cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.5rem;
-    margin: 2rem 0;
-}
+```bash
+mkdir docs/stylesheets
+touch docs/stylesheets/extra.css
+```
 
-.cards .card {
-    border: 1px solid var(--md-primary-fg-color--light);
-    border-radius:第十四步：继续编写，不要停止，请用英文回答，内容用中文。
+## Step 6: serve your site locally
+
+Run from your project's root directory:
+
+```bash
+mkdocs serve
+```
+
+Your site will be available at `http://127.0.0.1:8000`.
+
+## Step 7: content creation
+
+### Images
+```markdown
+![Description of image](images/my-image.jpg)
+
+<img src="images/my-image.jpg" alt="Description" width="300" align="right">
+```
+
+### Tabs
+````markdown
+=== "Tab 1"
+    Content for the first tab.
+
+=== "Tab 2"
+    Content for the second tab.
+
+    ```python
+    print("Code in tabs!")
+    ```
+````
+
+### Hints
+```markdown
+!!! note
+    This is a neutral note.
+
+!!! abstract "Custom Title"
+    This is a summary with a custom title.
+
+!!! success
+    This indicates a successful action.
+
+!!! warning
+    This is a warning.
+
+!!! danger
+    This is a dangerous thing.
+```
+
+### Links
+```markdown
+[Link Text](guide.md)
+[Link to header](guide.md#specific-header)
+
+[OpenAI](https://www.openai.com)
+
+<a href="https://www.openai.com" target="_blank">OpenAI (New Tab)</a>
+```
+
+### Code Blocks
+````markdown
+```python
+def hello_world():
+    print("Hello, World!")
+```
+
+```python title="hello.py"
+def hello_world():
+    print("Hello, World!")
+```
+````
+
+## Step 8: build and deploy
+
+```bash
+mkdocs build
+
+mkdocs gh-deploy
+```
