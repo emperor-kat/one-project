@@ -15,7 +15,7 @@
 ### Popular Capacity Choices
 
 ```mermaid
-pie title Refrigerator Capacity Preferences in Barnaul
+pie title Fridge Capacity Preferences in Barnaul
     "300-400L" : 45
     "200-300L" : 30
     "400L+" : 15
