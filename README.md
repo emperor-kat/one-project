@@ -104,28 +104,128 @@ Your site will be available at `http://127.0.0.1:8000`.
 
 ## Step 7: content creation
 
-### Images
+### Basic formatting
+
+**Bold** and *italic* text:
+
 ```markdown
+**Bold text**
+*Italic text*
+```
+
+### Lists
+
+**Numbered list:**
+
+```markdown
+1. First item.
+2. Second item.
+3. Third item.
+   1. Indented item.
+   2. Another indented item.
+```
+
+**Bullet list:**
+
+```markdown
+- First item.
+- Second item.
+- Third item.
+  - Nested item.
+  - Another nested item.
+```
+
+### Tables
+
+**Basic table:**
+
+| Header 1 | Header 2 | Header 3 |
+|----------|----------|----------|
+| Cell 1   | Cell 2   | Cell 3   |
+| Row 2    | Data     | Info     |
+
+
+**Alignment in table:**
+
+| Left-aligned | Center-aligned | Right-aligned |
+|:-------------|:--------------:|--------------:|
+| Data         | Data           | Data          |
+
+
+### Multiple Images
+
+**Multiple images in a row:**
+
+<p align="center">
+  <img src="images/image1.jpg" alt="Image 1" width="200">
+  <img src="images/image2.png" alt="Image 2" width="200"> 
+  <img src="images/image3.svg" alt="Image -" width="200">
+</p>
+
+### Mermaid Diagrams
+
+**Flowchart:**
+
+```mermaid
+graph TD;
+    A[Start] --> B{Decision};
+    B -->|Yes| C[Process 1];
+    B -->|No| D[Process 2];
+    C --> E[End];
+    D --> E;
+```
+
+**Sequence diagram:**
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant System
+    User->>System: Request
+    System->>User: Response
+```
+
+### LaTeX math equations
+
+**Inline math:**
+
+The Pythagorean theorem is $a^2 + b^2 = c^2$.
+
+
+**Block equations:**
+
+$$
+\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
+$$
+
+
+**Equation with alignment:**
+
+$$
+\begin{align}
+y &= x^2 \\
+z &= \sqrt{y}
+\end{align}
+$$
+
+### Images
+
 ![Description of image](images/my-image.jpg)
 
 <img src="images/my-image.jpg" alt="Description" width="300" align="right">
-```
+
 
 ### Tabs
-````markdown
+
 === "Tab 1"
     Content for the first tab.
 
 === "Tab 2"
     Content for the second tab.
 
-    ```python
-    print("Code in tabs!")
-    ```
-````
 
 ### Hints
-```markdown
+
 !!! note
     This is a neutral note.
 
@@ -140,20 +240,20 @@ Your site will be available at `http://127.0.0.1:8000`.
 
 !!! danger
     This is a dangerous thing.
-```
+
 
 ### Links
-```markdown
+
 [Link Text](guide.md)
 [Link to header](guide.md#specific-header)
 
-[OpenAI](https://www.openai.com)
+[Cat](https://en.wikipedia.org/wiki/Cat)
 
-<a href="https://www.openai.com" target="_blank">OpenAI (New Tab)</a>
-```
+<a href="https://en.wikipedia.org/wiki/Cat" target="_blank">Cat</a>
+
 
 ### Code Blocks
-````markdown
+
 ```python
 def hello_world():
     print("Hello, World!")
@@ -163,7 +263,7 @@ def hello_world():
 def hello_world():
     print("Hello, World!")
 ```
-````
+
 
 ## Step 8: build and deploy
 

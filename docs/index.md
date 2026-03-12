@@ -10,8 +10,11 @@ Your comprehensive guide to choosing the perfect refrigerator in Barnaul. We pro
 ## What You'll Find Here:
 
 - 🏷️ **Buying Guide** - Detailed comparisons and recommendations
+
 - 🏪 **Store Reviews** - Where to buy in Barnaul
+
 - 💰 **Price Comparison** - Best deals and discounts
+
 - 🔧 **Maintenance** - Installation and care tips
 
 === "First-time Buyer"

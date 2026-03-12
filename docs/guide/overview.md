@@ -7,10 +7,13 @@
 
 ### Essential Features
 
-- **Capacity**: Measured in liters (200-400L for families)
-- **Energy Efficiency**: Class A+++ is most efficient
-- **Noise Level**: Below 40 dB is quiet
-- **Climate Class**: N-ST for Barnaul's climate
+- **Capacity**: Measured in liters (200-400L for families).
+
+- **Energy Efficiency**: Class A+++ is most efficient.
+
+- **Noise Level**: Below 40 dB is quiet.
+
+- **Climate Class**: N-ST for Barnaul's climate.
 
 ### Popular Capacity Choices
 

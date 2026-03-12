@@ -9,10 +9,13 @@
 
 ### 1. Bosch
 
-**Market Position**: Premium  
-**Price Range**: 40,000-120,000₽  
-**Service Centers**: 2 in Barnaul  
-**Warranty**: ">3 years"
+**Market Position**: Premium.
+
+**Price Range**: 40,000-120,000₽.  
+
+**Service Centers**: 2 in Barnaul.  
+
+**Warranty**: ">3 years".
 
 !!! quote "Customer Review"
     *"Reliable but expensive. Perfect temperature control worth the price."*
@@ -21,21 +24,21 @@
 
 **Strengths:**
 
-- Innovative features
+- Innovative features.
 
-- Good energy efficiency
+- Good energy efficiency.
 
-- Modern designs
+- Modern designs.
 
 ### 3. Samsung
 
-- **Innovation**: Smart features, AI control
+- **Innovation**: Smart features, AI control.
 
-- **Design**: Premium finishes, customizable
+- **Design**: Premium finishes, customizable.
 
-- **Service**: 3 centers in Barnaul
+- **Service**: 3 centers in Barnaul.
 
-- **Price**: Mid to premium range
+- **Price**: Mid to premium range.
 
 
 ## Local Market Share
