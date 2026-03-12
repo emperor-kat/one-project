@@ -261,9 +261,27 @@ def hello_world():
 def hello_world():
     print("Hello, World!")
 ```
+## Step 7: link with github
 
+Using the terminal initialize Git repository:
 
-## Step 7: build and deploy
+```
+git init
+git add .
+git commit -m "Initial commit: setting up structure"
+```
+
+Go to github.com/new.
+Create a new repo, for example: my-docs.
+Connect and push.
+
+```
+git remote add origin https://github.com/yourname/my-docs.git
+git branch -M main
+git push -u origin main
+```
+
+## Step 8: build and deploy
 
 ```bash
 mkdocs build
