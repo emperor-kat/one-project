@@ -26,9 +26,7 @@ cd my-mkdocs-site
 mkdocs new .
 ```
 
-## Step 3: project structure
-
-Your project has this structure:
+Your project now has this structure:
 ```
 my-mkdocs-site/
     ├── docs/
@@ -37,7 +35,7 @@ my-mkdocs-site/
     └── mkdocs.yml
 ```
 
-## Step 4: configuration (`mkdocs.yml`)
+## Step 3: configuration (`mkdocs.yml`)
 
 Replace the contents of `mkdocs.yml` with this configuration:
 
@@ -83,7 +81,7 @@ nav:
   - About: about.md
 ```
 
-## Step 5: custom styling
+## Step 4: custom styling
 
 Create custom CSS file:
 
@@ -92,7 +90,7 @@ mkdir docs/stylesheets
 touch docs/stylesheets/extra.css
 ```
 
-## Step 6: serve your site locally
+## Step 5: serve your site locally
 
 Run from your project's root directory:
 
@@ -102,7 +100,7 @@ mkdocs serve
 
 Your site will be available at `http://127.0.0.1:8000`.
 
-## Step 7: content creation
+## Step 6: content creation
 
 ### Basic formatting
 
@@ -265,7 +263,7 @@ def hello_world():
 ```
 
 
-## Step 8: build and deploy
+## Step 7: build and deploy
 
 ```bash
 mkdocs build
