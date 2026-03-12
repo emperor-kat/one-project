@@ -35,3 +35,4 @@ D[Mid-range : 60,000-85,000₽] --> E[Smart features]
 D --> F[Energy A+++]
 G[Premium : 85,000₽+] --> H[Premium materials]
 G --> I[Advanced tech]
+```
