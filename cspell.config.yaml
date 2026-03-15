@@ -3,5 +3,5 @@ version: "0.2"
 files:
   - docs/**/*.md
 
-words:
-  - Indesit
+dictionaries:
+  - project-terms

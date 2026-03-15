@@ -1,4 +1,2 @@
 Indesit
-DocOps
-MkDocs
-OpenAPI
+Barnaul
