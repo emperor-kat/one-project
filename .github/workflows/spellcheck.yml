@@ -1,32 +1,21 @@
 name: Docs spellcheck
+
 on:
   pull_request:
     paths:
-      - "docs/**"
+      - docs/**
+
 jobs:
   spellcheck:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+
       - run: npm install -g cspell
-      - name: Run spellcheck (warning only)
-        run: |
-          # Run cspell and capture output
-          output=$(cspell --config ./cspell.config.yaml 2>&1)
-          exit_code=$?
-          
-          if [ $exit_code -eq 0 ]; then
-            echo "✅ Spellcheck passed - no issues found"
-          elif [ $exit_code -eq 1 ]; then
-            echo "::warning::Spellcheck found issues:"
-            echo "$output"
-            echo "Spellcheck warnings are shown above ⚠️"
-            # Continue the workflow
-          else
-            echo "::error::Spellcheck failed with error:"
-            echo "$output"
-            exit $exit_code
-          fi
+
+      - run: cspell docs
