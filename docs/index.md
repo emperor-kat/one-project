@@ -13,7 +13,7 @@ Your comprehensive guide to choosing the perfect refrigerator in Barnaul. We pro
 
 - 🏪 **Store Reviews** - Where to buy in Barnaul
 
-- 💰 **Price Comparison** - Best deals and discounts
+- 💰 **Price Comparison** - Best dealsz and discounts
 
 - 🔧 **Maintenance** - Installation and care tips
 

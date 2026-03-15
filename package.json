@@ -1,0 +1,28 @@
+{
+  "name": "one-project",
+  "version": "1.0.0",
+  "description": "Before you begin, ensure you have the following installed on your system: - Python (version 3.6 or higher) - pip (Python package manager, usually comes with Python)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "spellcheck": "cspell \"docs/**/*.md\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emperor-kat/one-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/emperor-kat/one-project/issues"
+  },
+  "homepage": "https://github.com/emperor-kat/one-project#readme",
+  "devDependencies": {
+    "cspell": "^9.7.0"
+  }
+}

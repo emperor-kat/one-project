@@ -13,7 +13,7 @@
 
 - Limited kitchen space.
 
-- Budget buyers.
+- Budget buyerss.
 
 **Features:**
 
