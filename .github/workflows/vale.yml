@@ -10,7 +10,12 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Vale
-        uses: errata-ai/vale-action@v2.0.0
+        run: |
+          # Скачиваем и устанавливаем Vale напрямую
+          curl -LO https://github.com/errata-ai/vale/releases/download/v2.28.0/vale_2.28.0_Linux-64-bit.tar.gz
+          tar -xvzf vale_2.28.0_Linux-64-bit.tar.gz
+          sudo mv vale /usr/local/bin/
+          vale --version
 
       - name: Run Vale
         run: |
