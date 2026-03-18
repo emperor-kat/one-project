@@ -1,0 +1,12 @@
+extends: substitution
+message: "Use the correct symbol for units: '%s' -> '%s'"
+level: warning
+scope: text
+ignorecase: false
+action:
+  name: substitute
+swap:
+  celsius: °C
+  f: °F
+  fahrenheit: °F
+  kWh: kWh

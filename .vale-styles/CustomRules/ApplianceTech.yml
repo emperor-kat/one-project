@@ -1,0 +1,15 @@
+extends: substitution
+message: "Use formal technical terminology instead of '%s'"
+level: warning
+scope: text
+ignorecase: true
+action:
+  name: substitute
+swap:
+  fridge: refrigerator
+  temp: temperature
+  comp: compressor
+  probs: problems
+  deg: degrees
+  thingy: component
+  gotta: must

@@ -16,6 +16,4 @@ jobs:
           reporter: github-check
           filter_mode: nofilter
           fail_on_error: true
-      - name: Console output
-        run: |
-          /github/home/vale --output=line --config=.vale.ini docs/    
+ 
