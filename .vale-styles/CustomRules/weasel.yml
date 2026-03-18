@@ -1,0 +1,12 @@
+extends: existence
+message: "Avoid vague word '%s'."
+level: warning
+ignorecase: true
+
+tokens:
+  - very
+  - really
+  - quite
+  - basically
+  - kind of
+  - actually

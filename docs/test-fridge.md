@@ -1,13 +1,13 @@
-# fridge User manual for model 123-XYZ
+# My Fridge Review
 
-## Quick Start guide
+This fridge is very amazing and really very unique. It has a lot of different features that are quite very useful.
 
-So, first thing, you gotta plug in the fridge. The temp inside should be set to 4 celsius. If it gets too warm, just turn the cold knob up. The thingy that makes ice might take a few hours to start working.
+Basically, the fridge is kind of big in size and it is able to store many stuff. There are several things which you can put inside, for example: milk, fruits, vegetables and etc.
 
-The freezer compartment is really cold - it can go down to -20 f! Remember to defrost it every once in a while to save energy.
+The user can easily utilize the fridge in order to cool down food items. It is designed in a way that it is very convenient for users.
 
-This appliance uses about 100 kWh per year, which is pretty good. For optimal performance, place the unit away from heat sources like your oven.
+You should never forget to close the door of the fridge because it might cause issues. There are many reasons why this is important.
 
-**Warning:** Don't block the vents in the back, or the comp might overheat and break. If you have any probs, call a technician.
+The fridge was built by engineers who really did a very good job. It is actually quite incredible.
 
-We hope you enjoy your new appliance!
+In conclusion, this fridge is very good and you should totally buy it.

@@ -1,0 +1,10 @@
+extends: substitution
+extends: substitution
+message: "Use '%s' instead of '%s'."
+level: warning
+ignorecase: true
+
+swap:
+  fridge: refrigerator
+  very unique: unique
+  very amazing: amazing
