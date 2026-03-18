@@ -1,5 +1,5 @@
 name: Vale Linting
-on: [pull_request]
+on: [push, pull_request]
 
 jobs:
   vale:
@@ -10,9 +10,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Vale
-        uses: errata-ai/vale-action@reviewdog
-        with:
-          files: docs/
-          reporter: github-check
-          filter_mode: nofilter
-          fail_on_error: true
+        uses: errata-ai/vale-action@v2.0.0
+
+      - name: Run Vale
+        run: |
+          vale --config=.vale.ini --output=line --no-exit docs/
