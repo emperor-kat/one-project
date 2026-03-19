@@ -1,7 +1,5 @@
 name: Link Check
-
 on: pull_request
-
 jobs:
   lychee:
     name: Check links
@@ -14,6 +12,7 @@ jobs:
       - name: Check links with Lychee
         uses: lycheeverse/lychee-action@v1
         with:
-          args: './docs/**/*'
-          fail: true 
-          token: ${{ secrets.GITHUB_TOKEN }} 
+          args: './docs/**/*.{md,html,txt} --verbose'
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
