@@ -1,0 +1,13 @@
+name: Build docs
+on: pull_request
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Install dependencies
+        run: pip install -r requirements-docs.txt
+        
+      - name: Build documentation
+        run: mkdocs build

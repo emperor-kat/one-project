@@ -1,0 +1,15 @@
+name: Link check
+
+on: pull_request
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run Lychee
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: docs --verbose --no-progress
+          fail: true

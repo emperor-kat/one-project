@@ -3,23 +3,19 @@ name: Docs spellcheck
 on:
   pull_request:
     paths:
-      - "docs/**"
+      - docs/**
 
 jobs:
   spellcheck:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Install Node
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Install cspell
-        run: npm install -g cspell
+      - run: npm install -g cspell
 
-      - name: Run spell check
-        run: cspell "docs/**/*.md"
+      - run: cspell docs

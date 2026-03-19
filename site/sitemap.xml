@@ -1,27 +1,199 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-         <loc>https://emperor-kat.github.io/one-project/</loc>
-         <lastmod>2026-03-12</lastmod>
+        <loc>https://emperor-kat.github.io/one-project/en/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://emperor-kat.github.io/one-project/en/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://emperor-kat.github.io/one-project/ru/en/"/>
     </url>
     <url>
-         <loc>https://emperor-kat.github.io/one-project/guide/brands/</loc>
-         <lastmod>2026-03-12</lastmod>
+        <loc>https://emperor-kat.github.io/one-project/en/definition/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://emperor-kat.github.io/one-project/en/definition/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://emperor-kat.github.io/one-project/ru/en/definition/"/>
     </url>
     <url>
-         <loc>https://emperor-kat.github.io/one-project/guide/overview/</loc>
-         <lastmod>2026-03-12</lastmod>
+        <loc>https://emperor-kat.github.io/one-project/en/test-fridge/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://emperor-kat.github.io/one-project/en/test-fridge/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://emperor-kat.github.io/one-project/ru/en/test-fridge/"/>
     </url>
     <url>
-         <loc>https://emperor-kat.github.io/one-project/guide/types/</loc>
-         <lastmod>2026-03-12</lastmod>
+        <loc>https://emperor-kat.github.io/one-project/en/guide/brands/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://emperor-kat.github.io/one-project/en/guide/brands/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://emperor-kat.github.io/one-project/ru/en/guide/brands/"/>
     </url>
     <url>
-         <loc>https://emperor-kat.github.io/one-project/stores/</loc>
-         <lastmod>2026-03-12</lastmod>
+        <loc>https://emperor-kat.github.io/one-project/en/guide/overview/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://emperor-kat.github.io/one-project/en/guide/overview/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://emperor-kat.github.io/one-project/ru/en/guide/overview/"/>
     </url>
     <url>
-         <loc>https://emperor-kat.github.io/one-project/stores/prices/</loc>
-         <lastmod>2026-03-12</lastmod>
+        <loc>https://emperor-kat.github.io/one-project/en/guide/types/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://emperor-kat.github.io/one-project/en/guide/types/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://emperor-kat.github.io/one-project/ru/en/guide/types/"/>
+    </url>
+    <url>
+        <loc>https://emperor-kat.github.io/one-project/en/stores/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://emperor-kat.github.io/one-project/en/stores/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://emperor-kat.github.io/one-project/ru/en/stores/"/>
+    </url>
+    <url>
+        <loc>https://emperor-kat.github.io/one-project/en/stores/prices/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://emperor-kat.github.io/one-project/en/stores/prices/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://emperor-kat.github.io/one-project/ru/en/stores/prices/"/>
+    </url>
+    <url>
+        <loc>https://emperor-kat.github.io/one-project/ru/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://emperor-kat.github.io/one-project/ru/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://emperor-kat.github.io/one-project/ru/ru/"/>
+    </url>
+    <url>
+        <loc>https://emperor-kat.github.io/one-project/ru/guide/brands/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://emperor-kat.github.io/one-project/ru/guide/brands/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://emperor-kat.github.io/one-project/ru/ru/guide/brands/"/>
+    </url>
+    <url>
+        <loc>https://emperor-kat.github.io/one-project/ru/guide/overview/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://emperor-kat.github.io/one-project/ru/guide/overview/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://emperor-kat.github.io/one-project/ru/ru/guide/overview/"/>
+    </url>
+    <url>
+        <loc>https://emperor-kat.github.io/one-project/ru/guide/types/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://emperor-kat.github.io/one-project/ru/guide/types/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://emperor-kat.github.io/one-project/ru/ru/guide/types/"/>
+    </url>
+    <url>
+        <loc>https://emperor-kat.github.io/one-project/ru/stores/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://emperor-kat.github.io/one-project/ru/stores/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://emperor-kat.github.io/one-project/ru/ru/stores/"/>
+    </url>
+    <url>
+        <loc>https://emperor-kat.github.io/one-project/ru/stores/prices/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://emperor-kat.github.io/one-project/ru/stores/prices/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://emperor-kat.github.io/one-project/ru/ru/stores/prices/"/>
+    </url>
+    <url>
+        <loc>https://emperor-kat.github.io/one-project/ru/en/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://emperor-kat.github.io/one-project/ru/en/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://emperor-kat.github.io/one-project/en/"/>
+    </url>
+    <url>
+        <loc>https://emperor-kat.github.io/one-project/ru/en/definition/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://emperor-kat.github.io/one-project/ru/en/definition/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://emperor-kat.github.io/one-project/en/definition/"/>
+    </url>
+    <url>
+        <loc>https://emperor-kat.github.io/one-project/ru/en/test-fridge/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://emperor-kat.github.io/one-project/ru/en/test-fridge/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://emperor-kat.github.io/one-project/en/test-fridge/"/>
+    </url>
+    <url>
+        <loc>https://emperor-kat.github.io/one-project/ru/en/guide/brands/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://emperor-kat.github.io/one-project/ru/en/guide/brands/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://emperor-kat.github.io/one-project/en/guide/brands/"/>
+    </url>
+    <url>
+        <loc>https://emperor-kat.github.io/one-project/ru/en/guide/overview/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://emperor-kat.github.io/one-project/ru/en/guide/overview/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://emperor-kat.github.io/one-project/en/guide/overview/"/>
+    </url>
+    <url>
+        <loc>https://emperor-kat.github.io/one-project/ru/en/guide/types/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://emperor-kat.github.io/one-project/ru/en/guide/types/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://emperor-kat.github.io/one-project/en/guide/types/"/>
+    </url>
+    <url>
+        <loc>https://emperor-kat.github.io/one-project/ru/en/stores/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://emperor-kat.github.io/one-project/ru/en/stores/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://emperor-kat.github.io/one-project/en/stores/"/>
+    </url>
+    <url>
+        <loc>https://emperor-kat.github.io/one-project/ru/en/stores/prices/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://emperor-kat.github.io/one-project/ru/en/stores/prices/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://emperor-kat.github.io/one-project/en/stores/prices/"/>
+    </url>
+    <url>
+        <loc>https://emperor-kat.github.io/one-project/ru/ru/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://emperor-kat.github.io/one-project/ru/ru/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://emperor-kat.github.io/one-project/ru/"/>
+    </url>
+    <url>
+        <loc>https://emperor-kat.github.io/one-project/ru/ru/guide/brands/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://emperor-kat.github.io/one-project/ru/ru/guide/brands/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://emperor-kat.github.io/one-project/ru/guide/brands/"/>
+    </url>
+    <url>
+        <loc>https://emperor-kat.github.io/one-project/ru/ru/guide/overview/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://emperor-kat.github.io/one-project/ru/ru/guide/overview/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://emperor-kat.github.io/one-project/ru/guide/overview/"/>
+    </url>
+    <url>
+        <loc>https://emperor-kat.github.io/one-project/ru/ru/guide/types/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://emperor-kat.github.io/one-project/ru/ru/guide/types/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://emperor-kat.github.io/one-project/ru/guide/types/"/>
+    </url>
+    <url>
+        <loc>https://emperor-kat.github.io/one-project/ru/ru/stores/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://emperor-kat.github.io/one-project/ru/ru/stores/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://emperor-kat.github.io/one-project/ru/stores/"/>
+    </url>
+    <url>
+        <loc>https://emperor-kat.github.io/one-project/ru/ru/stores/prices/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://emperor-kat.github.io/one-project/ru/ru/stores/prices/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://emperor-kat.github.io/one-project/ru/stores/prices/"/>
     </url>
 </urlset>

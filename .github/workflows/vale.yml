@@ -1,0 +1,19 @@
+name: Vale Linting
+on: [pull_request]
+
+jobs:
+  vale:
+    name: Runner - Vale
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Vale
+        uses: errata-ai/vale-action@reviewdog
+        with:
+          files: docs/
+          reporter: github-check
+          filter_mode: nofilter
+          fail_on_error: true
+ 

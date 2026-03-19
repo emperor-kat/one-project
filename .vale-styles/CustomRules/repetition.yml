@@ -1,0 +1,4 @@
+extends: repetition
+message: "Repetition of '%s' detected."
+level: warning
+ignorecase: true
