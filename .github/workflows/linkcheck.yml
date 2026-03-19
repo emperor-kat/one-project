@@ -14,4 +14,4 @@ jobs:
       - name: Check links with Lychee
         uses: lycheeverse/lychee-action@v1
         with:
-          file: ./docs/**/*
+          file: './docs/**/*'
