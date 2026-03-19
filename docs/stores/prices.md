@@ -1,3 +1,8 @@
+---
+id: doc-1
+update_frequency: 6 months
+---
+
 # Price Comparison: Barnaul Market
 
 ## Current Market Prices
