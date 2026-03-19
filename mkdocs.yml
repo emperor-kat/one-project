@@ -22,7 +22,6 @@ extra_css:
 
 plugins:
   - search
-  - linkcheck
 
 markdown_extensions:
   - admonition

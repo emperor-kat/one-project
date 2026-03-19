@@ -5,5 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: pip install mkdocs pymdown-extensions
-      - run: mkdocs build
+      
+      - name: Install dependencies
+        run: pip install -r requirements-docs.txt
+        
+      - name: Build documentation
+        run: mkdocs build
