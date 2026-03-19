@@ -11,3 +11,5 @@ You should never forget to close the door of the fridge because it might cause i
 The fridge was built by engineers who really did a very good job. It is actually quite incredible.
 
 In conclusion, this fridge is very good and you should totally buy it.
+
+[Learn more about reviews](https://www.rtings.com/refrigerator/reviews/besd/refrigerators)
