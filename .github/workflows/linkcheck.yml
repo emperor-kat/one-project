@@ -11,8 +11,5 @@ jobs:
       - name: Run Lychee
         uses: lycheeverse/lychee-action@v1
         with:
-          args: >
-            docs/**/*.md
-            --verbose
-            --no-progress
-            --fail
+          args: docs --verbose --no-progress
+          fail: true
