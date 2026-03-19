@@ -1,15 +1,10 @@
-name: Link Check
+name: Link check
+
 on: pull_request
+
 jobs:
-  lychee:
-    name: Check links
+  links:
     runs-on: ubuntu-latest
-    
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        
-      - name: Check links with Lychee
-        uses: lycheeverse/lychee-action@v1
-        with:
-          args: './docs/**/*.{md,html,txt} --verbose'
+      - uses: actions/checkout@v3
+      - uses: lycheeverse/lychee-action@v1
