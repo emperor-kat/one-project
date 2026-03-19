@@ -22,36 +22,10 @@ plugins:
         - locale: en
           name: English
           default: true
+          build: true
         - locale: ru
           name: Русский
-
-extra:
-  generator: false
-  alternate:
-    - name: English
-      link: /en/
-      lang: en
-    - name: Русский
-      link: /ru/
-      lang: ru
-
-extra_css:
-  - stylesheets/extra.css
-
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.highlight
-  - pymdownx.inlinehilite
-  - pymdownx.tabbed:
-      alternate_style: true
-  - attr_list
-  - tables
+          build: true
 
 nav:
   - Home: index.md
@@ -62,3 +36,17 @@ nav:
   - Barnaul Stores:
       - Store Reviews: stores/index.md
       - Price Comparison: stores/prices.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - tables
+
+extra:
+  generator: false
