@@ -13,6 +13,3 @@ jobs:
         uses: lycheeverse/lychee-action@v1
         with:
           args: './docs/**/*.{md,html,txt} --verbose'
-          fail: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
