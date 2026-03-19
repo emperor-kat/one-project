@@ -8,8 +8,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Run lychee
+      - name: Run Lychee
         uses: lycheeverse/lychee-action@v1
         with:
-          args: docs/**/*.md
-
+          args: >
+            docs/**/*.md
+            --verbose
+            --no-progress
+            --fail
