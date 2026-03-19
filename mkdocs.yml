@@ -15,14 +15,28 @@ theme:
     primary: blue
     accent: deep orange
 
-extra:
-  generator: false
-extra_css:
-  - stylesheets/extra.css
-
 plugins:
   - search
-  - plugins.metadata_plugin
+  - i18n: 
+      default_locale: en 
+      locales:
+        - en
+        - ru
+      fallback_to_default: true
+
+
+extra:
+  generator: false
+  alternate: 
+    - name: English
+      link: /en/
+      lang: en
+    - name: Русский
+      link: /ru/
+      lang: ru
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - admonition
