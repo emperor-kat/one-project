@@ -1,0 +1,17 @@
+name: Link Check
+
+on: pull_request
+
+jobs:
+  lychee:
+    name: Check links
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Check links with Lychee
+        uses: lycheeverse/lychee-action@v1
+        with:
+          file: ./docs/**/*
