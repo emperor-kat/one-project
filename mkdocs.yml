@@ -18,15 +18,12 @@ theme:
 plugins:
   - search
   - i18n:
-      default_language: en
       languages:
         - locale: en
           name: English
           default: true
-          build: true
         - locale: ru
           name: Русский
-          build: true
 
 extra:
   generator: false
@@ -56,7 +53,6 @@ markdown_extensions:
   - attr_list
   - tables
 
-
 nav:
   - Home: index.md
   - Buying Guide:
@@ -66,23 +62,3 @@ nav:
   - Barnaul Stores:
       - Store Reviews: stores/index.md
       - Price Comparison: stores/prices.md
-
-nav_en:
-  - Home: index.md
-  - Buying Guide:
-      - Overview: guide/overview.md
-      - Type: guide/types.md
-      - Brand: guide/brands.md
-  - Barnaul Stores:
-      - Store Reviews: stores/index.md
-      - Price Comparison: stores/prices.md
-
-nav_ru:
-  - Главная: index.md
-  - Руководство по покупке:
-      - Обзор: guide/overview.md
-      - Типы: guide/types.md
-      - Бренды: guide/brands.md
-  - Магазины Барнаула:
-      - Обзоры магазинов: stores/index.md
-      - Сравнение цен: stores/prices.md
